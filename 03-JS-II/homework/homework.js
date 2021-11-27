@@ -12,7 +12,9 @@ function mayoriaDeEdad(edad) {
   //Si tiene 18 años ó más, devolver --> "Allowed"
   //Si es menor, devolver --> "Not allowed"
 }
-  
+
+//HOLA HOLA!!!
+
 function conection(status) {
   //Recibimos un estado de conexión de un usuario representado por un valor numérico. 
   //Cuando el estado es igual a 1, el usuario está "Online"
