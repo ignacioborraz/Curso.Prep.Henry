@@ -1,0 +1,43 @@
+p, .info {
+    background-color: white;
+    color: black;
+    width: 90%;
+    margin: 0px auto 10px;
+    font-size: 15px;
+}
+
+.encabezado {
+    background-color: black;
+    color: white;
+    height: 50px;
+    margin: 10px auto 10px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.cuerpo {
+    display: flex;
+}
+
+.descripcion , .subtitulo {
+    display: block;
+    background-color: black;
+    color: white;
+    margin: auto;
+    padding: 0px;
+    border: 0px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.col1 , .col2 { 
+    width: 45%;
+}
+
+.col3 {
+    width: 10%;
+}
+
+img {
+    width: 100%
+}
