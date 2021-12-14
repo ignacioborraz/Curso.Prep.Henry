@@ -86,7 +86,7 @@ function menosQueNoventa(num) {
   // Devuelve "true" si el argumento de la función "num" es menor que noventa
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (num.length < 90) {
+  if (num < 90) {
     return true;
   } else {
     return false;
@@ -97,7 +97,7 @@ function mayorQueCincuenta(num) {
   // Devuelve "true" si el argumento de la función "num" es mayor que cincuenta
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (num.length > 50) {
+  if (num > 50) {
     return true;
   } else {
     return false;
@@ -174,7 +174,7 @@ function redondearHaciaArriba(num) {
 function numeroRandom() {
   //Generar un número al azar entre 0 y 1 y devolverlo
   //Pista: investigá qué hace el método Math.random()
-  let numero = Math.round( 10 * Math.random());
+  let numero = Math.random();
   return numero;
 }
 
@@ -258,15 +258,17 @@ function esVocal(letra){
   // Si no es vocal, tambien debe devolver "Dato incorrecto".
   //Escribe tu código aquí
   if (letra.length === 1) {
-    if ((letra === a)||(letra === e)||(letra === i)||(letra === o)||(letra === u)) {
-      let mensaje = "ES VOCAL";
+    if ((letra === "a")||(letra === "e")||(letra === "i")||(letra === "o")||(letra === "u")) {
+      let mensaje = "Es vocal";
+      return mensaje;
     } else {
-      let mensaje = "DATO INCORRECTO";
+      let mensaje = "Dato incorrecto";
+      return mensaje;
     }
   } else {
-    let mensaje = "DATO INCORRECTO";
+    let mensaje = "Dato incorrecto";
+    return mensaje;
   }
-  return mensaje;
 } 
 
 
