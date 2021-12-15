@@ -4,10 +4,18 @@
 ---
 1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
 
-	* Variables
-	* Strings
-	* Funciones (argumentos, `return`)
+	* Variables:
+	es una forma de guardar algo para usarlo mas tarde
+	* Strings:
+	son cadenas de palabras, se guardan siempre entre comillas
+	* Funciones
+	son objetos invocables
+		 *argumentos
+		 son los datos que usa una función cuando se llamada
+		 *return
+		 es lo unico que puede salir de la función cuando es llamada
 	* Declaraciones `if`
+	son una forma de evaluar si algo es verdadero
 	* Valores booleanos (`true`, `false`)
 
 
